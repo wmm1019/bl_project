@@ -3,7 +3,87 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../dist/css/register.css"/>
+		
 	</head>
+	<script src="../../dist/lib/jquery/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../dist/js/register.js" type="text/javascript" charset="utf-8"></script>
 	<body>
+		<div class="header">
+			<div class="wrap">
+				<a href=""  class="register_logo"><img src="../../dist/img/register_logo.png"/></a>
+				<img src="../../dist/img/register.png"/>
+			</div>
+		</div>
+		<div class="main">
+			<div class="wrap">
+				<div class="title">
+					<p>您好，感谢您加入i百联</p>
+					<p>如有账号，请点击 <a href="../../dist/html/login.html">登录</a></p>
+				</div>
+				<form class="register_form">
+						        <section>
+		    						<p>用户名：</p>
+		    						<input type="text" id="username" name="username" placeholder="6-20位字符，支持字母或字母与数字组合"/>
+		    					</section>
+		    					<section>
+		    						<p>登录密码：</p>
+		    						<input type="password" id="password1" name="password" placeholder="8-20位字符，至少使用两种字符组合"/>
+		    					</section>
+		    					<section>
+		    						<p>确认密码：</p>
+		    						<input type="password" id="password2"/>
+		    					</section>
+		    					<section>
+		    						<p>手机号：</p>
+		    						<input type="text" id="phonenumber"/>
+		    					</section>
+		    					<section>
+		    						<p>验证码：</p>
+		    						<input type="text" id="inputCode"/>
+		    						<span id="checkCode"></span>
+		    						<a id="createCode">换一张</a>
+		    					</section>
+		    					<section>
+		    						<p>短信验证码：</p>
+		    						<input type="text" />
+		    						<button>获取验证码</button>
+		    					</section>
+		    					<section>
+		    						<p>电子邮箱：</p>
+		    						<input type="text" />
+		    					</section>
+				</form>
+				<div class="isagree">
+					<input type="checkbox" name="" id="checked" value="" />
+					<p>我已阅读并同意<a href="#">《百联通会员注册协议》</a></p>
+				</div>
+				<button class="confirm" id="btn_confirm">立即注册 完成绑定</button>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="wrap">
+				<ul>
+					<li>
+						<a href="#">关于我们</a>
+					</li>
+					<li>
+						<a href="#">联系我们</a>
+					</li>
+					<li>
+						<a href="#">加盟合作</a>
+					</li>
+					<li>
+						<a href="#">诚征英才</a>
+					</li>
+					<li>
+						<a href="#">友情链接</a>
+					</li>
+				</ul>
+				<p>百联集团有限公司版权所有|客服电话：400-900-8800| 沪ICP备15028847号</p>
+				<p>联系地址：上海市普陀区真光路1258号百联中环广场6楼|联系电话：021-52629933|咨询热线：400-900-8800 </p>
+				<p>本企业已通过ISO9001:2000 质量管理体系标准认证|认证注册号：04206Q10079ROM|认可注册号：CNAB042-Q|增值电信业务经营许可证：沪B2-20100062</p>
+			</div>
+		</div>
 	</body>
 </html>

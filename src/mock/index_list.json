@@ -1,0 +1,47 @@
+{
+	"res_code": 0,
+	"res_error": "",
+	"res_body": {
+		"list": [
+		    {"id":1,"img":"/project/dist/img/index_line1_2.jpg","txt":"RISO 白凤蜜桃4粒装 800g","money":"23.90","price":"参考价：￥300"},
+			{"id":2,"img":"/project/dist/img/index_line1_3.JPG","txt":"延中 盐汽水 600ml","money":"2.50","price":"参考价：￥2.50"},
+			{"id":3,"img":"/project/dist/img/index_line1_4.png","txt":"白元 除湿剂三盒装 防霉防潮剂吸湿盒除湿盒 日本进口 ","money":"22.90","price":"参考价：￥50.00"},
+			{"id":4,"img":"/project/dist/img/index_line1_5.jpg","txt":"北大荒  五常稻花香米 4kg 五常大米","money":"49.90","price":"参考价：￥69.90"},
+			{"id":5,"img":"/project/dist/img/index_line1_6.jpg","txt":"珺瓅 新世界一帆风顺系列足金金条 10克","money":"2990.90","price":"参考价：￥5235.00"},
+			{"id":6,"img":"/project/dist/img/index_line1_7.jpg","txt":"信远斋 桂花酸梅汤饮料 300ml*12/箱","money":"55.90","price":"参考价：￥364.90"},
+			{"id":7,"img":"/project/dist/img/index_line1_8.jpg","txt":"融氏 纯玉米胚芽油 5l","money":"79.90","price":"参考价：￥98.00"},
+			{"id":8,"img":"/project/dist/img/index_line1_9.jpg","txt":"花王KAO洗衣粉 铃兰花香 850克 强效去污 防止褪色 日本进口  ","money":"19.90","price":"参考价：￥45.00"},
+			{"id":9,"img":"/project/dist/img/index_line1_10.jpg","txt":"多洛米亚 天然饮用水 1L*10/箱 意大利进口","money":"49.00","price":"参考价：￥100.00"},
+			{"id":10,"img":"/project/dist/img/index_line1_11.jpg","txt":"欣和 六月鲜 特级酱油 500ml  调味生抽凉拌炒菜","money":"10.80","price":"参考价：￥13.09"},
+			{"id":11,"img":"/project/dist/img/index_line1_12.jpg","txt":"RISO 精品车厘子 1kg","money":"99.00","price":"参考价：￥108.00"},
+			{"id":12,"img":"/project/dist/img/index_line1_13.jpg","txt":"康贝 PiPi专用婴儿柔湿巾 25片*4包","money":"18.90","price":"参考价：￥29.00"}
+		],
+		"list2": [
+		    {"id":1,"img":"/project/dist/img/like_1.jpg","txt":"RISO 白凤蜜桃4粒装 800g","money":"23.90"},
+			{"id":2,"img":"/project/dist/img/like_2.jpg","txt":"延中 盐汽水 600ml","money":"2.50"},
+			{"id":3,"img":"/project/dist/img/like_3.jpg","txt":"白元 除湿剂三盒装 防霉防潮剂吸湿盒除湿盒 日本进口 ","money":"22.90"},
+			{"id":4,"img":"/project/dist/img/like_4.jpg","txt":"北大荒  五常稻花香米 4kg 五常大米","money":"49.90"},
+			{"id":5,"img":"/project/dist/img/like_5.jpg","txt":"珺瓅 新世界一帆风顺系列足金金条 10克","money":"2990.90"},
+			{"id":6,"img":"/project/dist/img/like_6.jpg","txt":"信远斋 桂花酸梅汤饮料 300ml*12/箱","money":"55.90"},
+			{"id":7,"img":"/project/dist/img/like_7.jpg","txt":"融氏 纯玉米胚芽油 5l","money":"79.90"},
+			{"id":8,"img":"/project/dist/img/like_8.jpg","txt":"花王KAO洗衣粉 铃兰花香 850克 强效去污 防止褪色 日本进口  ","money":"19.90"},
+			{"id":9,"img":"/project/dist/img/like_9.jpg","txt":"多洛米亚 天然饮用水 1L*10/箱 意大利进口","money":"49.00"},
+			{"id":10,"img":"/project/dist/img/like_10.jpg","txt":"欣和 六月鲜 特级酱油 500ml  调味生抽凉拌炒菜","money":"10.80"},
+			{"id":11,"img":"/project/dist/img/like_11.jpg","txt":"RISO 精品车厘子 1kg","money":"99.00"},
+			{"id":12,"img":"/project/dist/img/like_12.jpg","txt":"康贝 PiPi专用婴儿柔湿巾 25片*4包","money":"18.90"},
+			{"id":13,"img":"/project/dist/img/like_13.jpg","txt":"RISO 白凤蜜桃4粒装 800g","money":"23.90"},
+			{"id":14,"img":"/project/dist/img/like_14.jpg","txt":"延中 盐汽水 600ml","money":"2.50"},
+			{"id":15,"img":"/project/dist/img/like_15.jpg","txt":"白元 除湿剂三盒装 防霉防潮剂吸湿盒除湿盒 日本进口 ","money":"22.90"},
+			{"id":16,"img":"/project/dist/img/like_16.jpg","txt":"北大荒  五常稻花香米 4kg 五常大米","money":"49.90"},
+			{"id":17,"img":"/project/dist/img/like_17.jpg","txt":"珺瓅 新世界一帆风顺系列足金金条 10克","money":"2990.90"},
+			{"id":18,"img":"/project/dist/img/like_18.jpg","txt":"信远斋 桂花酸梅汤饮料 300ml*12/箱","money":"55.90"},
+			{"id":19,"img":"/project/dist/img/like_19.jpg","txt":"融氏 纯玉米胚芽油 5l","money":"79.90"},
+			{"id":20,"img":"/project/dist/img/like_20.jpg","txt":"花王KAO洗衣粉 铃兰花香 850克 强效去污 防止褪色 日本进口  ","money":"19.90"},
+			{"id":21,"img":"/project/dist/img/like_21.jpg","txt":"多洛米亚 天然饮用水 1L*10/箱 意大利进口","money":"49.00"},
+			{"id":22,"img":"/project/dist/img/like_22.jpg","txt":"欣和 六月鲜 特级酱油 500ml  调味生抽凉拌炒菜","money":"10.80"},
+			{"id":23,"img":"/project/dist/img/like_23.jpg","txt":"RISO 精品车厘子 1kg","money":"99.00"},
+			{"id":24,"img":"/project/dist/img/like_24.jpg","txt":"康贝 PiPi专用婴儿柔湿巾 25片*4包","money":"18.90"},
+			{"id":25,"img":"/project/dist/img/like_25.jpg","txt":"康贝 PiPi专用婴儿柔湿巾 25片*4包","money":"18.90"}
+		]
+	}
+}

@@ -4,7 +4,685 @@
 		<meta charset="utf-8" />
 		<title></title>
 	</head>
+	<link rel="stylesheet" type="text/css" href="../dist/css/index.css">
+	<script src="../dist/lib/artTemplate/template-web.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../dist/lib/jquery/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../dist/lib/jquery-plugins/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../dist/lib/jquery-plugins/jquery.xm_carousel.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../dist/js/index.js" type="text/javascript" charset="utf-8"></script>
 	<body>
-		
+		<!--楼层导航-->
+		 <div class="navigation">
+		 	<a  class="lv1">生鲜<br/>蔬果</a>
+		 	<a  class="lv2">食品<br/>饮料</a>
+		 	<a  class="lv3">时尚<br/>大牌</a>
+		 	<a  class="lv4">精品<br/>百货</a>
+		 	<a  class="lv5">个护<br/>清洁</a>
+		 	<a  class="lv6">母婴<br/>玩具</a>
+		 	<a  class="lv7">家居<br/>家纺</a>
+		 	<a  class="lv8">3C数<br/>码</a>
+		 	<a href="#" class="lv9">TOP</a>
+		 </div>
+		 <!--右侧侧边栏-->
+		 <div class="right_sidebar">
+		 	
+		 </div>
+		<!--吸顶-->
+		<div class="fileheader">
+			<div class="wrap">
+				<div class="fileheader_logo">
+					<a><img src="../dist/img/fileheader_logo.png"/></a>
+					
+				</div>
+				<div class="fileheader_search">
+						<form>
+							<input type="text" class="input_txt" />
+						    <input type="button" class="input_btn" value="搜索"/>
+						</form>
+				</div>
+				<div class="fileheader_user">
+					<a href="../dist/html/login.html" id="login">登录   |</a>
+					<a href="../dist/html/register.html" id="register">注册</a>
+				</div>
+			</div>
+		</div>
+		<!--顶部-->
+		<div class="_head">
+			
+		</div>
+		<!--导航-->
+		<div class="nav">
+			<div class="wrap">
+				<div class="nav_left">
+					<h3>所有商品分类</h3>
+					<ul class="show_nav">
+						<li class="second_menu">
+							<a href="">
+							    <i></i>
+							    <span>百联进口 全球购</span>
+						    </a>
+						    <div class="third_menu">
+						    	<div class="menu_left">
+						    	    <div class="row">
+						    		    <h4>美妆护肤></h4>
+						    	        <div>
+						    		        <a href="" class="_li">面膜</a>
+						    		        <a href="" class="_li">乳液/面霜</a>
+						    		        <a href="" class="_li">化妆水</a>
+						    		        <a href="" class="_li">护肤套装</a>
+						    		        <a href="" class="_li">眼部护理</a>
+						    		        <a href="" class="_li">面部精华</a>
+						    		        <a href="" class="_li">美容仪</a>
+						    		        <a href="" class="_li">界面</a>
+						    		        <a href="" class="_li">卸妆</a>
+						    		        <a href="" class="_li">彩妆</a>
+						    		        <a href="" class="_li">香水</a>
+						    		        <a href="" class="_li">男士护肤</a>
+						    		        <a href="" class="_li">口红</a>
+						    		        <a href="" class="_li">美妆工具</a>
+						    	        </div>
+						    	    </div>
+						    	    <div class="row">
+						    		    <h4>美妆护肤></h4>
+						    	        <div>
+						    		        <a href="" class="_li">面膜</a>
+						    		        <a href="" class="_li">乳液/面霜</a>
+						    		        <a href="" class="_li">化妆水</a>
+						    		        <a href="" class="_li">护肤套装</a>
+						    		        <a href="" class="_li">眼部护理</a>
+						    		        <a href="" class="_li">面部精华</a>
+						    		        <a href="" class="_li">美容仪</a>
+						    		        <a href="" class="_li">界面</a>
+						    		        <a href="" class="_li">卸妆</a>
+						    		        <a href="" class="_li">彩妆</a>
+						    	        </div>
+						    	    </div>
+						    	        <div class="row">
+						    		    <h4>美妆护肤></h4>
+						    	        <div>
+						    		        <a href="" class="_li">面膜</a>
+						    		        <a href="" class="_li">乳液/面霜</a>
+						    		        <a href="" class="_li">化妆水</a>
+						    		        <a href="" class="_li">护肤套装</a>
+						    		        <a href="" class="_li">眼部护理</a>
+						    		        <a href="" class="_li">面部精华</a>
+						    		        <a href="" class="_li">美容仪</a>
+						    		        <a href="" class="_li">界面</a>
+						    		        <a href="" class="_li">卸妆</a>
+						    		        <a href="" class="_li">彩妆</a>
+						    	        </div>
+						    	    </div>
+						    	        <div class="row">
+						    		    <h4>美妆护肤></h4>
+						    	        <div>
+						    		        <a href="" class="_li">面膜</a>
+						    		        <a href="" class="_li">乳液/面霜</a>
+						    		        <a href="" class="_li">化妆水</a>
+						    		        <a href="" class="_li">护肤套装</a>
+						    		        <a href="" class="_li">眼部护理</a>
+						    		        <a href="" class="_li">面部精华</a>
+						    		        <a href="" class="_li">美容仪</a>
+						    		        <a href="" class="_li">界面</a>
+						    		        <a href="" class="_li">卸妆</a>
+						    		        <a href="" class="_li">彩妆</a>
+						    	        </div>
+						    	    </div>
+						    	        <div class="row">
+						    		    <h4>美妆护肤></h4>
+						    	        <div>
+						    		        <a href="" class="_li">面膜</a>
+						    		        <a href="" class="_li">乳液/面霜</a>
+						    		        <a href="" class="_li">化妆水</a>
+						    		        <a href="" class="_li">护肤套装</a>
+						    		        <a href="" class="_li">眼部护理</a>
+						    		        <a href="" class="_li">面部精华</a>
+						    		        <a href="" class="_li">美容仪</a>
+						    		        <a href="" class="_li">界面</a>
+						    		        <a href="" class="_li">卸妆</a>
+						    		        <a href="" class="_li">彩妆</a>
+						    	        </div>
+						    	    </div>
+						        </div>
+						        <div class="menu_right">
+						    	     <a href=""><img src="../dist/img/menu_3.1.1.jpg"/></a>
+						    	     <a href=""><img src="../dist/img/menu_3.1.2.jpg"/></a>
+						        </div>
+						    </div>
+						</li>
+						<li class="second_menu">
+							<a href="" >
+							    <i></i>
+							    <span>生鲜食品</span>
+						    </a>
+						    <div class="third_menu">
+						    	<div class="menu_left">
+						    	    <div class="row">
+						    		    <h4>冷冻速食></h4>
+						    	        <div>
+						    		        <a href="" class="_li">水饺</a>
+						    		        <a href="" class="_li">馄饨</a>
+						    		        <a href="" class="_li">汤圆</a>
+						    		        <a href="" class="_li">包子</a>
+						    		        <a href="" class="_li">眼部护理</a>
+						    		        <a href="" class="_li">面部精华</a>
+						    		        <a href="" class="_li">美容仪</a>
+						    		        <a href="" class="_li">界面</a>
+						    		        <a href="" class="_li">卸妆</a>
+						    		        <a href="" class="_li">彩妆</a>
+						    		        <a href="" class="_li">香水</a>
+						    		        <a href="" class="_li">男士护肤</a>
+						    		        <a href="" class="_li">口红</a>
+						    		        <a href="" class="_li">美妆工具</a>
+						    	        </div>
+						    	    </div>
+						    	    <div class="row">
+						    		    <h4>美妆护肤></h4>
+						    	        <div>
+						    		        <a href="" class="_li">面膜</a>
+						    		        <a href="" class="_li">乳液/面霜</a>
+						    		        <a href="" class="_li">化妆水</a>
+						    		        <a href="" class="_li">护肤套装</a>
+						    		        <a href="" class="_li">眼部护理</a>
+						    		        <a href="" class="_li">面部精华</a>
+						    		        <a href="" class="_li">美容仪</a>
+						    		        <a href="" class="_li">界面</a>
+						    		        <a href="" class="_li">卸妆</a>
+						    		        <a href="" class="_li">彩妆</a>
+						    	        </div>
+						    	    </div>
+						    	        <div class="row">
+						    		    <h4>美妆护肤></h4>
+						    	        <div>
+						    		        <a href="" class="_li">面膜</a>
+						    		        <a href="" class="_li">乳液/面霜</a>
+						    		        <a href="" class="_li">化妆水</a>
+						    		        <a href="" class="_li">护肤套装</a>
+						    		        <a href="" class="_li">眼部护理</a>
+						    		        <a href="" class="_li">面部精华</a>
+						    		        <a href="" class="_li">美容仪</a>
+						    		        <a href="" class="_li">界面</a>
+						    		        <a href="" class="_li">卸妆</a>
+						    		        <a href="" class="_li">彩妆</a>
+						    	        </div>
+						    	    </div>
+						    	        <div class="row">
+						    		    <h4>美妆护肤></h4>
+						    	        <div>
+						    		        <a href="" class="_li">面膜</a>
+						    		        <a href="" class="_li">乳液/面霜</a>
+						    		        <a href="" class="_li">化妆水</a>
+						    		        <a href="" class="_li">护肤套装</a>
+						    		        <a href="" class="_li">眼部护理</a>
+						    		        <a href="" class="_li">面部精华</a>
+						    		        <a href="" class="_li">美容仪</a>
+						    		        <a href="" class="_li">界面</a>
+						    		        <a href="" class="_li">卸妆</a>
+						    		        <a href="" class="_li">彩妆</a>
+						    	        </div>
+						    	    </div>
+						    	        <div class="row">
+						    		    <h4>美妆护肤></h4>
+						    	        <div>
+						    		        <a href="" class="_li">面膜</a>
+						    		        <a href="" class="_li">乳液/面霜</a>
+						    		        <a href="" class="_li">化妆水</a>
+						    		        <a href="" class="_li">护肤套装</a>
+						    		        <a href="" class="_li">眼部护理</a>
+						    		        <a href="" class="_li">面部精华</a>
+						    		        <a href="" class="_li">美容仪</a>
+						    		        <a href="" class="_li">界面</a>
+						    		        <a href="" class="_li">卸妆</a>
+						    		        <a href="" class="_li">彩妆</a>
+						    	        </div>
+						    	    </div>
+						        </div>
+						        <div class="menu_right">
+						    	     <a href=""><img src="../dist/img/menu_3.1.1.jpg"/></a>
+						    	     <a href=""><img src="../dist/img/menu_3.1.2.jpg"/></a>
+						        </div>
+						    </div>
+						</li>
+						<li class="second_menu">
+							<a href="" >
+							    <i></i>
+							    <span>生鲜食品 酒水冲饮</span>
+						    </a>
+						</li>
+						<li>
+							<a href="" >
+							    <i></i>
+							    <span>美容护理</span>
+						    </a>
+						</li>
+						<li>
+							<a href="" >
+							    <i></i>
+							    <span>餐厨用具  家居家装</span>
+						    </a>
+						</li>
+						<li>
+							<a href="">
+							    <i></i>
+							    <span>母婴玩具</span>
+						    </a>
+						</li>
+						<li>
+							<a href="">
+							    <i></i>
+							    <span>家清  纸品  一次性</span>
+						    </a>
+						</li>
+						<li>
+							<a href="">
+							    <i></i>
+							    <span>女装男装</span>
+						    </a>
+						</li>
+						<li>
+							<a href="">
+							    <i></i>
+							    <span>鞋靴箱包  珠宝饰品</span>
+						    </a>
+						</li>
+						<li>
+							<a href="">
+							    <i></i>
+							    <span>手机数码  电脑办公 家用电器</span>
+						    </a>
+						</li>
+						<li>
+							<a href="">
+							    <i></i>
+							    <span>家用电器</span>
+						    </a>
+						</li>
+						<li>
+							<a href="">
+							    <i></i>
+							    <span>运动户外 汽车用品</span>
+						    </a>
+						</li>
+						<li>
+							<a href="">
+							    <i></i>
+							    <span>营养保健  第一医药</span>
+						    </a>
+						</li>
+						<li>
+							<a href="">
+							    <i></i>
+							    <span>礼品卡  充值 图书</span>
+						    </a>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="nav_right">
+					<ul>
+						<li><a>生活日用</a></li>
+						<li><a href="">24H百货</a></li>
+						<li><a href="">全球购</a></li>
+						<li><a href="">精品闪购</a></li>
+						<li><a href="">电器城</a></li>
+						<li><a href="">奥莱代购</a></li>
+						<li><a href="">百联卡</a></li>
+						<li><a href="">百联到家</a></li>
+						<li><a href="">兜来花 </a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	    <!--lunbo-->
+	    <div class="banner">
+	    	<div id="banner_carousel">
+	    		
+	    	</div>
+	    	<div class="banner_right">
+	    		
+	    	</div>
+	    </div>
+	    <!--主体-->
+	    <div class="container_1">
+	    	<div class="wrap">
+	    		<div class="left">
+	    			<a href=""><img src="../dist/img/index_line1_1.jpg"/></a>
+	    		</div>
+	    		<div class="right">
+	    			<button id="btn_left"><</button>
+	    			<button id="btn_right">></button>
+	    			<!--热卖商品模板-->
+	    			<script id="hotSale_template" type="text/html">
+					{{each list prod}}
+				<li>
+					<span class="id" style="display: none;">{{prod.id}}</span>
+					<a href="" class="prod_img">
+						<img src="{{prod.img}}" class="img-responsive" />
+					</a>
+					<a class="prod_txt">{{prod.txt}}</a>
+					<p class="">￥{{prod.money}}</p>
+					<span class="">{{prod.price}}</span>
+				</li>
+				{{/each}}
+				</script>
+				<ul class="hot_prodSale">
+				</ul>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="container_2">
+	    	<div class="wrap">
+	    		<div class="left">
+	    			<a href="">
+	    				<img src="../dist/img/index_line2_1.2.jpg"/>
+	    			</a>
+	    		</div>
+	    		<div class="right">
+	    			<ul>
+	    				<li>
+	    					<a href=""><img src="../dist/img/index_line2_1.jpg"/></a>
+	    				</li>
+	    				<li>
+	    					<a href=""><img src="../dist/img/index_line2_2.jpg"/></a>
+	    				</li>
+	    				<li>
+	    					<a href=""><img src="../dist/img/index_line2_3.jpg"/></a>
+	    				</li>
+	    				<li>
+	    					<a href=""><img src="../dist/img/index_line2_4.jpg"/></a>
+	    				</li>
+	    				<li>
+	    					<a href=""><img src="../dist/img/index_line2_5.jpg"/></a>
+	    				</li>
+	    				<li>
+	    					<a href=""><img src="../dist/img/index_line2_6.jpg"/></a>
+	    				</li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="floor">
+	    	<div class="wrap">
+	    		
+	    	
+	    <div class="level" id="level_1">
+	    		<div class="title">
+	    			<h3>生鲜果蔬</h3>
+	    		</div>
+	    		<div class="content">
+	    			<div class="left_carousel" id="left_carousel1">
+	    				<!--<a href="#"><img src="../dist/img/index_line3_1.1.jpg"/></a>-->
+	    			</div>
+	    			<div class="rigth_other">
+	    				<ul class="top">
+	    					<li><a href=""><img src="../dist/img/index_line3_1.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line3_2.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line3_3.jpg"/></a></li>
+	    				</ul>
+	    				<ul class="center">
+	    					<li><a href=""><img src="../dist/img/index_line3_4.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line3_5.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line3_6.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line3_7.jpg"/></a></li>
+	    				</ul>
+	    			</div>
+	    		</div>
+	    	
+	    </div>
+	    
+	    <div class="level" id="level_2">
+	    		<div class="title">
+	    			<h3>食品饮料</h3>
+	    		</div>
+	    		<div class="content">
+	    			<div class="left_carousel" id="left_carousel2">
+	    			</div>
+	    			<div class="rigth_other">
+	    				<ul class="top">
+	    					<li><a href=""><img src="../dist/img/index_line4_1.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line4_2.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line4_3.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line4_4.jpg"/></a></li>
+	    				</ul>
+	    				<ul class="center">
+	    					
+	    					<li><a href=""><img src="../dist/img/index_line4_5.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line4_6.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line4_7.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line4_8.jpg"/></a></li>
+	    				</ul>
+	    			</div>
+	    		</div>
+	    </div>
+	    
+	    <div class="level" id="level_3">
+	    		<div class="title">
+	    			<h3>时尚大牌</h3>
+	    		</div>
+	    		<div class="content">
+	    			<div class="left_carousel" id="left_carousel3">
+	    			</div>
+	    			<div class="rigth_other">
+	    				<ul class="top">
+	    					<li><a href=""><img src="../dist/img/index_line5_1.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_2.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_3.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_4.jpg"/></a></li>
+	    				</ul>
+	    				<ul class="center">
+	    					
+	    					<li><a href=""><img src="../dist/img/index_line5_5.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_6.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_7.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_8.jpg"/></a></li>
+	    				</ul>
+	    				<div class="bottom">
+	    					
+	    				</div>
+	    			</div>
+	    		</div>
+	    </div>
+	    
+	    <div class="level" id="level_4">
+	    		<div class="title">
+	    			<h3>精品百货</h3>
+	    		</div>
+	    		<div class="content">
+	    			<div class="left_carousel" id="left_carousel4">
+	    			</div>
+	    			<div class="rigth_other">
+	    				<ul class="top">
+	    					<li><a href=""><img src="../dist/img/index_line5_1.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_2.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_3.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_4.jpg"/></a></li>
+	    				</ul>
+	    				<ul class="center">
+	    					
+	    					<li><a href=""><img src="../dist/img/index_line5_5.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_6.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_7.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_8.jpg"/></a></li>
+	    				</ul>
+	    				<div class="bottom">
+	    					
+	    				</div>
+	    			</div>
+	    		</div>
+	    </div>
+	    
+	    <div class="level" id="level_5">
+	    		<div class="title">
+	    			<h3>个护清洁</h3>
+	    		</div>
+	    		<div class="content">
+	    			<div class="left_carousel" id="left_carousel5">
+	    			</div>
+	    			<div class="rigth_other">
+	    				<ul class="top">
+	    					<li><a href=""><img src="../dist/img/index_line5_1.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_2.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_3.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_4.jpg"/></a></li>
+	    				</ul>
+	    				<ul class="center">
+	    					
+	    					<li><a href=""><img src="../dist/img/index_line5_5.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_6.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_7.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_8.jpg"/></a></li>
+	    				</ul>
+	    				<div class="bottom">
+	    					
+	    				</div>
+	    			</div>
+	    		</div>
+	    </div>
+	    
+	    <div class="level" id="level_6">
+	    		<div class="title">
+	    			<h3>母婴玩具</h3>
+	    		</div>
+	    		<div class="content">
+	    			<div class="left_carousel" id="left_carousel6">
+	    			</div>
+	    			<div class="rigth_other">
+	    				<ul class="top">
+	    					<li><a href=""><img src="../dist/img/index_line5_1.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_2.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_3.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_4.jpg"/></a></li>
+	    				</ul>
+	    				<ul class="center">
+	    					
+	    					<li><a href=""><img src="../dist/img/index_line5_5.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_6.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_7.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_8.jpg"/></a></li>
+	    				</ul>
+	    				<div class="bottom">
+	    					
+	    				</div>
+	    			</div>
+	    		</div>
+	    </div>
+	    
+	    <div class="level" id="level_7">
+	    		<div class="title">
+	    			<h3>家居家纺</h3>
+	    		</div>
+	    		<div class="content">
+	    			<div class="left_carousel" id="left_carousel7">
+	    			</div>
+	    			<div class="rigth_other">
+	    				<ul class="top">
+	    					<li><a href=""><img src="../dist/img/index_line5_1.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_2.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_3.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_4.jpg"/></a></li>
+	    				</ul>
+	    				<ul class="center">
+	    					
+	    					<li><a href=""><img src="../dist/img/index_line5_5.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_6.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_7.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_8.jpg"/></a></li>
+	    				</ul>
+	    				<div class="bottom">
+	    					
+	    				</div>
+	    			</div>
+	    		</div>
+	    </div>
+	    
+	    <div class="level" id="level_8">
+	    		<div class="title">
+	    			<h3>3C数码</h3>
+	    		</div>
+	    		<div class="content">
+	    			<div class="left_carousel" id="left_carousel8">
+	    			</div>
+	    			<div class="rigth_other">
+	    				<ul class="top">
+	    					<li><a href=""><img src="../dist/img/index_line5_1.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_2.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_3.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_4.jpg"/></a></li>
+	    				</ul>
+	    				<ul class="center">
+	    					
+	    					<li><a href=""><img src="../dist/img/index_line5_5.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_6.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_7.jpg"/></a></li>
+	    					<li><a href=""><img src="../dist/img/index_line5_8.jpg"/></a></li>
+	    				</ul>
+	    				<div class="bottom">
+	    					
+	    				</div>
+	    			</div>
+	    		</div>
+	    </div>
+	    </div>
+	    </div>
+	    
+	    <!--猜你喜欢-->
+	    <div class="guessyou_like">
+	    	<div class="wrap">
+	    		<div class="title">
+	    			<p>猜你喜欢<span>Guess you like</span></p>
+	    			<p><a href="../dist/html/login.html">登录</a>后推荐更准确</p>
+	    		</div>
+	    		<script id="yourLike_template" type="text/html">
+					{{each list2 likeprod}}
+				<li>
+					<span class="id" style="display: none;">{{likeprod.id}}</span>
+					<a href="" class="likeprod_img">
+						<img src="{{likeprod.img}}" class="img-responsive" />
+					</a>
+					<a class="likeprod_txt">{{likeprod.txt}}</a>
+					<p><span>${{likeprod.money}}</span><button class="collection">收藏</button></p>
+				</li>
+				{{/each}}
+				</script>
+				<ul class="yourlike_prodSale">
+				</ul>
+	    	</div>
+	    </div>
+	    <!--尾部-->
+	    <div class="_foot">
+	    	
+	    </div>
+	    <!--<script id="lv1_template" type="text/html">
+	        {{each lv content}}
+	    		<div class="contain">
+	    			{{each content cont index}}
+	    			    <div class="title">
+	    			<h4>{{cont.title}}</h3>
+	    		</div>
+	    		<div class="content">
+	    			<div class="left_carousel">
+	    				
+	    			</div>
+	    			<div class="rigth_other">
+	    				<ul class="top">
+	    					<li><a href=""><img src="{{content[0].top_img[0]}}"/></a></li>
+	    					<li><a href=""><img src="{{content[0].top_img[1]}}"/></a></li>
+	    					<li><a href=""><img src="{{content[0].top_img[2]}}"/></a></li>
+	    					<li><a href=""><img src="{{content[0].top_img[3]}}"/></a></li>
+	    				</ul>
+	    				<ul class="center">
+	    					<li><a href=""><img src=""/></a></li>
+	    					<li><a href=""><img src=""/></a></li>
+	    					<li><a href=""><img src=""/></a></li>
+	    					<li><a href=""><img src=""/></a></li>
+	    				</ul>
+	    				<ul class="bottom">
+	    					
+	    				</ul>
+	    			</div>
+	    		</div>
+	    			{{/each}}
+	    		</div>
+	    	{{/each}}
+        </script>-->
 	</body>
 </html>
