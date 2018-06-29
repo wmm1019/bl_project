@@ -1,0 +1,21 @@
+/*重置样式*/
+html, body, ul, li,a, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div, section, figure,input{ 
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+
+fieldset, img { border:none; }
+
+em, i, b, strong,{ 
+    font-style:normal; 
+    font-weight:normal; 
+}
+
+ul, ol { list-style:none; } 
+
+a {text-decoration:none; }
+.wrap{
+    width: 1190px;
+    margin: 0 auto;
+}
